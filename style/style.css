@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.carousel-image1 {
+  background: url('../img/header1.jpg');
+  background-size: cover;
+}
+
+.carousel-image2 {
+  background: url('../img/header2.jpg');
+  background-size: cover;
+}
+
+.carousel-image3 {
+  background: url('../img/header4.jpg');
+  background-size: cover;
+}
+
+.ace-color {
+  color: #80ff00;
+}
+
+.ace-btn {
+  color: #ffffff;
+  background-color: #80ff00;
+  border-radius: 1rem;
+}
+
+.ace-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.ace-btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.heading-sec {
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+.heading-sec:hover {
+  transform: skewY(2deg) skewX(15deg) scale(1.1);
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.ace-photo:hover {
+  transform: scale(1.05) translateY(-0.5rem);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
+  z-index: 20;
+  /* outline: 1.5rem solid #55c57a; */
+}
+
+.navbar,
+.carousel-border {
+  border-bottom: 0.5rem solid #80ff00;
+}
+
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  color: #ffffff;
+  background-color: #80ff00;
+}
+
+.social,
+.hAddress {
+  font-size: 1.1rem;
+}
